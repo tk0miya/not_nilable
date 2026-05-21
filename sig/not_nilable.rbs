@@ -1,4 +1,6 @@
+# Generated from lib/not_nilable.rb with RBS::Inline
+
 module NotNilable
-  VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  class Error < StandardError
+  end
 end
