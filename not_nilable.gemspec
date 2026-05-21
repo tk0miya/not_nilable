@@ -16,7 +16,6 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.3"
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
-  spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
   spec.metadata["changelog_uri"] = "#{spec.homepage}/blob/main/CHANGELOG.md"
   spec.metadata["rubygems_mfa_required"] = "true"
@@ -27,7 +26,10 @@ Gem::Specification.new do |spec|
   spec.files = IO.popen(%w[git ls-files -z], chdir: __dir__, err: IO::NULL) do |ls|
     ls.readlines("\x0", chomp: true).reject do |f|
       (f == gemspec) ||
-        f.start_with?(*%w[bin/ Gemfile .gitignore .rspec spec/ .github/ .rubocop.yml])
+        f.start_with?(*%w[
+                        .claude/ .github/ .gitignore .rspec .rubocop.yml .vscode/
+                        Gemfile Rakefile Steepfile bin/ rbs_collection. spec/ test/
+                      ])
     end
   end
   spec.bindir = "exe"
