@@ -1,6 +1,6 @@
 # Generated from lib/not_nilable.rb with RBS::Inline
 
 module NotNilable
-  class Error < StandardError
+  class NilAssertionError < StandardError
   end
 end

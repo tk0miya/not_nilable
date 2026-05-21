@@ -3,6 +3,9 @@
 require_relative "not_nilable/version"
 
 module NotNilable
-  class Error < StandardError; end
-  # Your code goes here...
+  class NilAssertionError < StandardError
+  end
 end
+
+require_relative "not_nilable/core_ext/object"
+require_relative "not_nilable/core_ext/nil_class"
