@@ -1,0 +1,12 @@
+# Generated from lib/not_nilable/core_ext/nil_class.rb with RBS::Inline
+
+class NilClass
+  # Raises +NotNilable::NilAssertionError+.
+  #
+  # This method asserts that the receiver is not +nil+. Since the receiver
+  # _is_ +nil+, the assertion fails and an exception is raised. An optional
+  # +message+ may be supplied to customize the exception message.
+  #
+  # @rbs message: String?
+  def not_nil!: (?String? message) -> bot
+end

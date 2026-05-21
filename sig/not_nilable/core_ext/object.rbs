@@ -1,0 +1,13 @@
+# Generated from lib/not_nilable/core_ext/object.rb with RBS::Inline
+
+class Object
+  # Returns +self+.
+  #
+  # This method asserts that the receiver is not +nil+. Since +Object+ is not
+  # +NilClass+, the assertion succeeds and +self+ is returned. The +message+
+  # parameter is accepted for API parity with +NilClass#not_nil!+ but is
+  # ignored.
+  #
+  # @rbs message: String?
+  def not_nil!: (?String? message) -> self
+end

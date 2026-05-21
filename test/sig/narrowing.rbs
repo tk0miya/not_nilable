@@ -1,0 +1,7 @@
+class NarrowingTest
+  def string_optional: () -> void
+  def integer_optional: () -> void
+  def array_optional: () -> void
+  def non_nilable_receiver: () -> void
+  def bool_optional: () -> void
+end
