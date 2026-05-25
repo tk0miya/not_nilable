@@ -161,6 +161,10 @@ gems:
   version: 1.0.0
   source:
     type: rubygems
+- name: rubocop-rbs_inline
+  version: 1.5.5
+  source:
+    type: rubygems
 - name: securerandom
   version: '0'
   source:
