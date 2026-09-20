@@ -35,17 +35,23 @@ RSpec.describe NotNilable do
   end
 
   describe "NilClass#not_nil!" do
-    it "raises NilAssertionError when called on nil" do
-      expect { nil.not_nil! }.to raise_error(NotNilable::NilAssertionError)
+    context "when called on nil" do
+      it "raises NilAssertionError" do
+        expect { nil.not_nil! }.to raise_error(NotNilable::NilAssertionError)
+      end
     end
 
-    it "raises with a default message when none is provided" do
-      expect { nil.not_nil! }.to raise_error(NotNilable::NilAssertionError, "Nil assertion failed")
+    context "when no message is provided" do
+      it "raises with a default message" do
+        expect { nil.not_nil! }.to raise_error(NotNilable::NilAssertionError, "Nil assertion failed")
+      end
     end
 
-    it "raises with the supplied message" do
-      expect { nil.not_nil!("expected a value here") }
-        .to raise_error(NotNilable::NilAssertionError, "expected a value here")
+    context "when a message is supplied" do
+      it "raises with the supplied message" do
+        expect { nil.not_nil!("expected a value here") }
+          .to raise_error(NotNilable::NilAssertionError, "expected a value here")
+      end
     end
   end
 end
