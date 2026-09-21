@@ -2,35 +2,43 @@
 
 RSpec.describe NotNilable do
   describe "Object#not_nil!" do
-    it "returns self for a String" do
-      value = "hello"
-      expect(value.not_nil!).to equal(value)
+    context "with a String" do
+      it "returns self" do
+        value = "hello"
+        expect(value.not_nil!).to equal(value)
+      end
     end
 
-    it "returns self for an Integer" do
-      expect(42.not_nil!).to eq(42)
+    context "with an Integer" do
+      it "returns self" do
+        expect(42.not_nil!).to eq(42)
+      end
     end
 
-    it "returns self for false" do
-      expect(false.not_nil!).to be(false)
+    context "with false" do
+      it "returns self" do
+        expect(false.not_nil!).to be(false)
+      end
     end
 
-    it "returns self for false, ignoring a supplied message" do
-      expect(false.not_nil!("would be ignored")).to be(false)
+    context "with an Array" do
+      it "returns self" do
+        value = [1, 2, 3]
+        expect(value.not_nil!).to equal(value)
+      end
     end
 
-    it "returns self for an Array" do
-      value = [1, 2, 3]
-      expect(value.not_nil!).to equal(value)
+    context "with a Hash" do
+      it "returns self" do
+        value = { a: 1 }
+        expect(value.not_nil!).to equal(value)
+      end
     end
 
-    it "returns self for a Hash" do
-      value = { a: 1 }
-      expect(value.not_nil!).to equal(value)
-    end
-
-    it "ignores the message argument" do
-      expect("hello".not_nil!("custom message")).to eq("hello")
+    context "when a message argument is supplied" do
+      it "ignores the message and returns self" do
+        expect(false.not_nil!("would be ignored")).to be(false)
+      end
     end
   end
 
