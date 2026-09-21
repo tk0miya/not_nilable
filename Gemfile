@@ -16,6 +16,7 @@ group :development do
   gem "rubocop-rake"
   gem "rubocop-rbs_inline"
   gem "rubocop-rspec"
+  gem "rubocop-rspec-structure", github: "tk0miya/rubocop-rspec-structure"
   gem "rubocop-rspec-unused-let"
   gem "steep"
 end
