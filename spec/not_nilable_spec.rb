@@ -15,7 +15,7 @@ RSpec.describe NotNilable do
       expect(false.not_nil!).to be(false)
     end
 
-    it "returns self for false even when a message is supplied" do
+    it "returns self for false, ignoring a supplied message" do
       expect(false.not_nil!("would be ignored")).to be(false)
     end
 
