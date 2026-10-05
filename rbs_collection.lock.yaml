@@ -6,7 +6,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: concurrent-ruby
@@ -14,7 +14,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: csv
@@ -22,7 +22,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: diff-lcs
@@ -30,7 +30,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: ffi
@@ -58,7 +58,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: listen
@@ -66,7 +66,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: logger
@@ -74,7 +74,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: monitor
@@ -90,7 +90,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: parser
@@ -98,7 +98,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: prism
@@ -110,7 +110,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rake
@@ -118,7 +118,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: random-formatter
@@ -142,7 +142,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rubocop
@@ -150,7 +150,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rubocop-ast
@@ -158,7 +158,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: aa277106e7cbbabd01ff57ee6988271e19000f34
+    revision: 33602f9e883980d74ae05833ce76d818a8269f09
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rubocop-instance_variable_access
