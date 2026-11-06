@@ -11,6 +11,7 @@ plugins:
   - rubocop-rake
   - rubocop-rbs_inline
   - rubocop-rspec
+  - rubocop-rspec-structure
   - rubocop-rspec-unused-let
 
 # Layout
